@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Produtos</h2>
-    <table border="1">
+    <table border="1" width="50%">
         <tr>
             <th>Código</th>
             <th>Produto</th>
@@ -22,6 +22,18 @@
             <td>002</td>
             <td>Tablet</td>
             <td>R$ 1500,00</td>
+        </tr>
+        <!--colspan faz mesclar duas linhas-->
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan="2">Cupom1 -R$ 100,00</td>
+        </tr>
+        <tr>
+            <td colspan="3">Cupom1 -R$ 10,00</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td colspan="2">R$ 4890,00</td>
         </tr>
     </table>
 </body>
